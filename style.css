@@ -1,0 +1,184 @@
+.header-top{
+	background-color:#00519d;
+	padding: 10px;
+}
+.header-top .left li{
+	list-style: inline;
+	display: inline-block;
+	color: #fff;
+	padding-top: 10px;
+}
+.header-top .right li{
+	list-style: none;
+	margin-top: -30px;
+	float: right;
+	color: #fff;
+}
+.navbar-brand>img{
+	max-width: 80%;
+}
+.navbar-nav>li>a{
+	font-size: 18px;
+	padding:10px;s
+
+}
+.navbar-right{
+	margin-top: 30px;
+}
+.navbar-nav>li>a:hover{
+	font-weight: 400;
+	background-color: rgb(180,145,182,0.3);
+	border-radius: 10px;
+}
+@media only screen and (max-width: 760px) {
+	.header-top .right li{
+		text-align: center;
+		float: none;
+	}
+}
+.carousel{
+	margin-top: 30px;
+}
+.about{
+	padding: 20px;
+}
+.about h3{
+	font-size: 30px;
+	padding: 20px;
+}
+.about h3>span{
+	color: red;
+}
+.about .text{
+	font-size: 14px;
+	color: #000;
+	text-align: justify-all;
+	line-height: 2;
+}
+.about-img img{
+	max-width: 85%;
+	padding: 20px;
+	margin-top: -50px;
+}
+@media only screen and (max-width: 760px) {
+	.about-img img{
+		margin-top:0px;
+		max-width: 100%;
+	}
+}
+.products{
+	background-color: #f9f9f9 !important;
+}
+.pr-1{
+	background-color: #fff;
+}
+.products h3{
+	font-size: 30px;
+	padding: 8px;
+}
+.products h3>span{
+	color: red;
+}
+.course-tag{
+	position: absolute;
+    right: 15px;
+    margin-top: 50px;
+}
+.course-tag h5{
+	background-color: #00519d;
+	text-shadow: 0 0 black;
+	padding: 10px;
+}
+.pr-text{
+	width: 100%;
+	height: 50px;
+}
+@media only screen and (max-width: 760px) {
+	.col-md-3{
+		width: 25%;
+	}
+}
+
+hr{
+	position: relative;
+	top: 70px;
+}
+#scroller {
+    position: relative;
+    top: 50px;
+}
+#scroller .innerScrollArea {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#scroller ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+#scroller li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+}
+.clients{
+ 	position: relative;
+ 	margin-top: 80px;
+ }
+.clients h3{
+	font-size: 30px;
+	padding: 8px;
+}
+.clients h3>span{
+	color: red;
+}
+.main_footer{
+	background-color: #00519d;
+	margin-top: 80px;
+}
+.text{
+	color: #fff;
+	line-height: 1.5;
+}
+.foot-sec ul,li{
+	list-style: none;
+}
+.title{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+}
+.foot-sec>p,p>a{
+	color: #fff;
+}
+.pad0 li{
+	list-style: none;
+	padding: 3px;
+}
+.pad0 li a{
+	color: #fff;
+	
+}
+.foot-sec ul>a{
+	color: #fff;
+	padding: 10px;
+}
+.bottom-footer{
+	background-color: #d7241b;
+	padding: 15px;
+}
+.text-center p{
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+}
+.footer-icon{
+	border-radius: 20px;
+	color: #fff;
+	font-size: 28px;
+}
